@@ -1,6 +1,6 @@
 // Marketplace component
 import React, { useState, useEffect } from 'react';
-import NFTCard from '../components/NFTCard/NFTCard'; // Adjust the path as necessary
+import NFTCard from '../../components/NFTCard/NFTCard'; // Adjust the path as necessary
 import styles from './marketplace.css'; // Adjust the path as necessary
 
 // Placeholder function for fetching NFT data

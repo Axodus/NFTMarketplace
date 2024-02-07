@@ -1,7 +1,7 @@
 // HomePage component
 import React from 'react';
 import styles from './homePage.css'; // Adjust the path as necessary
-import NFTCard from '../components/NFTCard/NFTCard'; // Adjust the path as necessary
+import NFTCard from '../../components/NFTCard/NFTCard'; // Adjust the path as necessary
 
 // Placeholder data for NFTs - replace this with real data fetched from your backend or blockchain
 const featuredNFTs = [
