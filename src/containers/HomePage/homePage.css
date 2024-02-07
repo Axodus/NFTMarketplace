@@ -1,1 +1,21 @@
 /* HomePage styles */
+.homePage {
+    padding: 20px;
+  }
+  
+  .heroSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .featuredNFTs {
+    margin-top: 20px;
+  }
+  
+  .nftGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  

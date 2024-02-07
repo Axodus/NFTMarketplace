@@ -1,1 +1,57 @@
 /* Theme styles */
+/* Base variables for themes */
+:root {
+    /* White theme variables */
+    --white-bg-color: #ffffff;
+    --white-text-color: #000000;
+    --white-border-color: #eaeaea;
+  
+    /* Dark theme variables */
+    --dark-bg-color: #363537;
+    --dark-text-color: #FAFAFA;
+    --dark-border-color: #666666;
+  
+    /* Dimmer theme variables */
+    --dimmer-bg-color: #282828;
+    --dimmer-text-color: #CCCCCC;
+    --dimmer-border-color: #444444;
+  }
+  
+  /* White theme */
+  .theme-white {
+    --bg-color: var(--white-bg-color);
+    --text-color: var(--white-text-color);
+    --border-color: var(--white-border-color);
+  }
+  
+  /* Dark theme */
+  .theme-dark {
+    --bg-color: var(--dark-bg-color);
+    --text-color: var(--dark-text-color);
+    --border-color: var(--dark-border-color);
+  }
+  
+  /* Dimmer theme */
+  .theme-dimmer {
+    --bg-color: var(--dimmer-bg-color);
+    --text-color: var(--dimmer-text-color);
+    --border-color: var(--dimmer-border-color);
+  }
+  
+  /* Applying theme variables */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
+  }
+  
+  /* Example usage within components */
+  .container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .border-example {
+    border: 1px solid var(--border-color);
+  }
+  

@@ -1,1 +1,88 @@
 /* Global styles */
+/* Reset some basic elements */
+html, body, p, ol, ul, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Box sizing rules */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Inherit fonts for inputs and buttons */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+    
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Color Variables */
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --info-color: #17a2b8;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .mt-0 { margin-top: 0; }
+  .mb-0 { margin-bottom: 0; }
+  .my-0 { margin-top: 0; margin-bottom: 0; }
+  .mx-0 { margin-left: 0; margin-right: 0; }
+  
+  /* Add more utility classes as needed */
+  

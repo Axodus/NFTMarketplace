@@ -1,5 +1,22 @@
 {
   "name": "nft-marketplace-frontend",
   "version": "1.0.0",
-  "scripts": {}
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "ethers": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "mzfshark",
+  "license": "MIT"
 }

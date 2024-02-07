@@ -1,1 +1,16 @@
 /* WalletConnectButton styles */
+.connectButton {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connectButton:hover {
+    background-color: #45a049;
+  }
+  

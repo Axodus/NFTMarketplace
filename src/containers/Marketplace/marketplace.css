@@ -1,1 +1,12 @@
 /* Marketplace styles */
+.marketplace {
+    padding: 20px;
+  }
+  
+  .nftGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  

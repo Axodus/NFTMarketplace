@@ -1,1 +1,45 @@
 /* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navLink:hover {
+    color: #aaa;
+  }
+  
