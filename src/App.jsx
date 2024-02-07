@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import useWeb3 from './hooks/useWeb3';
 
 import './styles/globals.css';
-import './theme.css'; // Assuming you want the theme applied globally
+import './styles/theme.css'; // Assuming you want the theme applied globally
 
 const App = () => {
   const { connectWallet, account } = useWeb3();
