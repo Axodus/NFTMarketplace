@@ -4,7 +4,7 @@
 # NFTMarketplace
 
  NFT marketplace frontend on Harmony Protocol
-
+```
 ## Features
 
 - List of features
