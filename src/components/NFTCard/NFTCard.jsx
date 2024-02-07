@@ -1,0 +1,1 @@
+// NFTCard component
